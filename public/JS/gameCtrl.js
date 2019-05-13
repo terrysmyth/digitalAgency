@@ -5,8 +5,7 @@ angular.module("myApp")
 
 
 
-    	$scope.ben = "hello";
-    	console.log(ben);
+
 
 
 
