@@ -27,6 +27,9 @@ app.config(function($routeProvider) {
         .when("/about", {
             templateUrl: "about.html",
         })
+        .when("/game", {
+            templateUrl: "game.html",
+        })
         .otherwise({
             redirectTo: '/home'
         });
