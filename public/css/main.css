@@ -1,9 +1,74 @@
 /*Color schemes
-
+#0B0C10 black
+#1F2833 navy blue
+#C5C6C7 gray
+#66FCF1 bright blue
+#45A29E dark blue
 
 */
 
 body {
 	background-color: teal;
 	color: #fff;
+}
+
+.centerise {
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+}
+
+.hero {
+	height:80vh;
+	min-height: 400px;
+	background-image: url("https://mcdn.wallpapersafari.com/medium/91/46/teVUqA.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	position: relative;
+}
+
+.hero .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.hero .heroInfo {
+	position: relative;
+	z-index: 100;
+	width: 50vw;
+	min-width: 350px;
+	height: 350px;
+	padding:20px;
+	border: 1px solid #66FCF1;
+}
+
+.hero h2 {
+	color:#66FCF1;
+	margin:0;
+	font-size: 70px;
+	line-height: 70px;
+	text-align: center;
+
+}
+
+/*navbar*/
+
+.navbar {
+	background-color: rgba(0,0,0,0.6);
+	padding:10px 20px;
+}
+
+.navbar a {
+	color:#66FCF1;
 }
