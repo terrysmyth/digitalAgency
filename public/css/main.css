@@ -4,6 +4,7 @@
 #C5C6C7 gray
 #66FCF1 bright blue
 #45A29E dark blue
+#d9b32b yellow
 
 */
 
@@ -51,6 +52,7 @@ body {
 	height: 350px;
 	padding:20px;
 	border: 1px solid #66FCF1;
+	flex-direction: column;
 }
 
 .hero h2 {
@@ -62,7 +64,27 @@ body {
 
 }
 
+.hero a {
+	border:2px #1F2833 solid;
+	background-color:#1F2833;
+	border-radius: 50px;
+	margin:10px;
+	cursor: pointer;
+	padding:0 20px;
+	transition-duration: 0.8s;
+}
+
+.hero a:hover  {
+	border:2px #d9b32b solid;
+	background-color:#d9b32b;
+	border-radius: 50px;
+	margin:10px;
+	cursor: pointer;
+	padding:0 20px;
+}
 /*navbar*/
+
+
 
 .navbar {
 	background-color: rgba(0,0,0,0.6);
