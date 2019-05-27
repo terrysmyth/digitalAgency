@@ -94,3 +94,43 @@ body {
 .navbar a {
 	color:#66FCF1;
 }
+
+
+/* ABOUT PAGE */
+
+.something p {
+	column-count: 2;
+	text-align: justify;
+}
+
+.aboutHeading2 {
+	margin-top: 100px ;
+	margin-bottom:20px;
+}
+
+.aboutHeadingTop {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.aboutHeading1 {
+	margin-bottom: 20px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+
+	.something p {
+		column-count: 1;
+	}
+
+
+
+
+
+
+}
