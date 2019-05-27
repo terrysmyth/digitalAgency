@@ -4,12 +4,13 @@
 #C5C6C7 gray
 #66FCF1 bright blue
 #45A29E dark blue
-
+#d9b32b Yellow
 */
 
 body {
 	background-color: teal;
 	color: #fff;
+	margin: 0;
 }
 
 .centerise {
@@ -72,3 +73,39 @@ body {
 .navbar a {
 	color:#66FCF1;
 }
+
+
+/* FOOTER */
+
+footer {
+	background-color: #d9b32b;
+	padding: 50px 20px;
+}
+
+.innerFooter {
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+
+}
+
+.footerInfo {
+	max-width: 500px;
+	width: 50%;
+	min-width: 300px;
+	border: 2px #fff solid;
+	padding: 20px;
+}
+
+.footerContact {
+	padding: 20px;
+}
+
+.footerContactWrapper {
+	background-color: #66FCF1;
+}
+
+
