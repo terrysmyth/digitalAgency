@@ -87,13 +87,21 @@ body {
 
 
 .navbar {
-	background-color: rgba(0,0,0,0.6);
+	background-color: #014242;
 	padding:10px 20px;
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+	-ms-justify-content: flex-end;
 }
 
 .navbar a {
 	color:#66FCF1;
+  padding: 5px 10px;
+	color:#fff;
+	transition-duration:0.5s;
+	font-size: 12px;
 }
+
 
 
 /* ABOUT PAGE */
@@ -134,3 +142,20 @@ body {
 
 
 }
+
+	
+.navbar a:hover {
+    border-radius: 311px;
+    color: #66FCF1;
+    text-decoration: none;
+    box-shadow: 2px 3px 0px 1px rgba(0,0,0,0.7);
+    transform: translateY(-2px) translateX(-2px);
+}
+
+.navbar img {
+	height: 30px;
+	margin-right: auto;
+}
+
+
+
