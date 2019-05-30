@@ -13,6 +13,10 @@ body {
 	margin: 0;
 }
 
+*:active, *:focus {
+	outline: none;
+}
+
 .centerise {
 	display: flex;
 	display: -webkit-flex;
@@ -93,9 +97,6 @@ footer {
 }
 
 .footerInfo {
-	max-width: 500px;
-	width: 50%;
-	min-width: 300px;
 	border: 2px #fff solid;
 	padding: 20px;
 }
@@ -106,6 +107,39 @@ footer {
 
 .footerContactWrapper {
 	background-color: #66FCF1;
+	text-align: center;
+	position: center;
+	padding: 40px 20px;
 }
+
+.footerContactWrapper label {
+	display: block;
+	margin: 20px 0 0;
+}
+
+.contactInput {
+	border: 0;
+	padding: 10px 5px;
+	transition-duration: 0.3s;
+}
+
+.contactInput:focus {
+    transform: translateY(-10px) translateX(-10px);
+    box-shadow: 5px 3px 0px 3px #45A29E;
+}
+
+
+
+.footerContactWrapper .submitBtn {
+	text-align: center;
+	border: 0;
+	padding: 8px 13px;
+}
+
+
+
+
+
+
 
 
