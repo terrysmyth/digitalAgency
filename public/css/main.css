@@ -17,6 +17,14 @@ body {
 	color: #fff;
 }
 
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Ranga', cursive;
+}
+
 .centerise {
 	display: flex;
 	display: -webkit-flex;
@@ -55,7 +63,7 @@ body {
 	min-width: 350px;
 	height: 350px;
 	padding:20px;
-	border: 1px solid #66FCF1;
+	border: 5px solid #d9b32b;
 	flex-direction: column;
 }
 
