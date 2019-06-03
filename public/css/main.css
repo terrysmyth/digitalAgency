@@ -106,7 +106,8 @@ footer {
 }
 
 .footerContactWrapper {
-	background-color: #66FCF1;
+	background-color: teal;
+	border-radius: 10px;
 	text-align: center;
 	position: center;
 	padding: 40px 20px;
@@ -121,6 +122,8 @@ footer {
 	border: 0;
 	padding: 10px 5px;
 	transition-duration: 0.3s;
+	width: 200px;
+	margin-top: 5px;
 }
 
 .contactInput:focus {
@@ -128,18 +131,48 @@ footer {
     box-shadow: 5px 3px 0px 3px #45A29E;
 }
 
-
+.footerContactWrapper textarea {
+	height: 200px;
+	min-height: 200px;
+	max-height: 200px;
+}
 
 .footerContactWrapper .submitBtn {
 	text-align: center;
 	border: 0;
 	padding: 8px 13px;
+	border-radius: 12px;
 }
 
+.footerContactWrapper .submitBtn:hover {
+	border-bottom: none;
+	border-right: none;
+	background-color: #4da6a3;
+	color: #fff;
+}
 
+.footerA {
+	background-color: #008080;
+	border-radius:	15px;
+	padding: 5px 10px;
+	color: #66FCF1;
+	transition-duration: 0.5s;
+	display: inline-block;
+}
 
+.footerA:hover {
+    transform: translateY(-10px) translateX(-10px);
+    box-shadow: 5px 3px 0px 3px #000;
+    color: #66FCF1;
+}
 
+.footerA a {
+	color: #fff;
+}
 
+.footerA a:hover {
+	text-decoration: none;
+}
 
 
 
