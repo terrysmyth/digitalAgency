@@ -105,10 +105,13 @@ body {
 
 .navbar a {
 	color:#66FCF1;
+	padding: 5px 10px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    margin: 0 10px;
 }
 
 .navbar a:hover {
-    border-radius: 311px;
     color: #66FCF1;
     text-decoration: none;
     box-shadow: 2px 3px 0px 1px rgba(0,0,0,0.7);
