@@ -106,23 +106,25 @@ body {
 
 /* ABOUT PAGE */
 
+.something {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
 .something p {
 	column-count: 2;
 	text-align: justify;
 }
 
-.aboutHeading2 {
-	margin-top: 100px ;
-	margin-bottom:20px;
+.aboutHeading {
+	margin: 0;
 }
 
 .aboutHeadingTop {
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-.aboutHeading1 {
-	margin-bottom: 20px;
+	margin: 0;
+	background-color: #fff;
+	font-size: 100px;
+	color: #585858;
 }
 
 
