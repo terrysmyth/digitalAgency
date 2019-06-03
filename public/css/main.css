@@ -99,12 +99,57 @@ body {
 }
 
 .navbar a {
-	padding: 5px 10px;
+	color:#66FCF1;
+  padding: 5px 10px;
 	color:#fff;
 	transition-duration:0.5s;
 	font-size: 12px;
 }
 
+
+
+/* ABOUT PAGE */
+
+.something {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.something p {
+	column-count: 2;
+	text-align: justify;
+}
+
+.aboutHeading {
+	margin: 0;
+}
+
+.aboutHeadingTop {
+	margin: 0;
+	background-color: #fff;
+	font-size: 100px;
+	color: #585858;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+
+	.something p {
+		column-count: 1;
+	}
+
+
+
+
+
+
+}
+
+	
 .navbar a:hover {
     border-radius: 311px;
     color: #66FCF1;
@@ -117,5 +162,6 @@ body {
 	height: 30px;
 	margin-right: auto;
 }
+
 
 
