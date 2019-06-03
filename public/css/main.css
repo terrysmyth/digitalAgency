@@ -4,7 +4,12 @@
 #C5C6C7 gray
 #66FCF1 bright blue
 #45A29E dark blue
-#d9b32b Yellow
+#d9b32b yellow
+
+FONTSSSS
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ranga', cursive;
+
 */
 
 body {
@@ -56,6 +61,7 @@ body {
 	height: 350px;
 	padding:20px;
 	border: 1px solid #66FCF1;
+	flex-direction: column;
 }
 
 .hero h2 {
@@ -67,16 +73,53 @@ body {
 
 }
 
+.hero a {
+	border:2px #1F2833 solid;
+	background-color:#1F2833;
+	border-radius: 50px;
+	margin:10px;
+	cursor: pointer;
+	padding:0 20px;
+	transition-duration: 0.8s;
+}
+
+.hero a:hover  {
+	border:2px #d9b32b solid;
+	background-color:#d9b32b;
+	border-radius: 50px;
+	margin:10px;
+	cursor: pointer;
+	padding:0 20px;
+}
 /*navbar*/
 
+
+
 .navbar {
-	background-color: rgba(0,0,0,0.6);
+	background-color: #014242;
 	padding:10px 20px;
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+	-ms-justify-content: flex-end;
 }
 
 .navbar a {
 	color:#66FCF1;
 }
+
+.navbar a:hover {
+    border-radius: 311px;
+    color: #66FCF1;
+    text-decoration: none;
+    box-shadow: 2px 3px 0px 1px rgba(0,0,0,0.7);
+    transform: translateY(-2px) translateX(-2px);
+}
+
+.navbar img {
+	height: 30px;
+	margin-right: auto;
+}
+
 
 
 /* FOOTER */
@@ -172,6 +215,53 @@ footer {
 
 .footerA a:hover {
 	text-decoration: none;
+  padding: 5px 10px;
+	color:#fff;
+	transition-duration:0.5s;
+	font-size: 12px;
+}
+
+
+
+/* ABOUT PAGE */
+
+.something {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.something p {
+	column-count: 2;
+	text-align: justify;
+}
+
+.aboutHeading {
+	margin: 0;
+}
+
+.aboutHeadingTop {
+	margin: 0;
+	background-color: #fff;
+	font-size: 100px;
+	color: #585858;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+
+	.something p {
+		column-count: 1;
+	}
+
+
+
+
+
+
 }
 
 
