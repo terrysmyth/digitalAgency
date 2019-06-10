@@ -44,7 +44,7 @@ body {
 	position: relative;
 }
 
-.hero .overlay {
+.overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -310,9 +310,40 @@ footer {
 	color: #585858;
 }
 
+/*HOME PAGE*/
 
+.homePageTitle {
+	background-image: url(https://cdn.arstechnica.net/wp-content/uploads/2017/02/The-Expanse-1200x675-800x450.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	background-color: #fff;
+	height:400px;
+	position: relative;
+}
 
+.quoteHolder {
+	max-width: 500px;
+	border: 2px white solid;
+	padding: 20px;
+	position: relative;
+	margin: 0 auto;
 
+}
+
+.homePageTitle p {
+	color: #fff;
+	font-size: 26px;
+	line-height: 28px;
+	z-index: 10;
+}
+
+.homePageTitle p:nth-child(2) {
+	text-align: right;
+	font-size: 16px;
+}
 
 @media only screen and (max-width: 600px) {
   
