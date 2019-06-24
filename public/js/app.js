@@ -30,7 +30,11 @@ app.config(function($routeProvider) {
         .when("/game", {
             templateUrl: "game.html",
         })
+        .when("/easteregg", {
+            templateUrl: "easteregg.html",
+        })
         .otherwise({
             redirectTo: '/home'
-        });
+        })
+        
 });
