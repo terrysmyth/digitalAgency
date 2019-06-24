@@ -35,4 +35,96 @@ jdd@j1""                    "zj@d@.   00z       .jjd1 @@
 	console.log("YOU FOUND OUR EASTER EGGGGGGGGGGG");
 };
 
+
+let h = false;
+let a = false;
+let t = false;
+let c = false;
+
+document.addEventListener("keydown", function(e) {
+
+  if (e.keyCode == 72) {
+    h = true;
+  } else if (e.keyCode == 65) {
+    a = true;
+  } else if (e.keyCode == 84) {
+    t = true;
+  } else if (e.keyCode == 67) {
+    c = true;
+  }
+
+  // FINAL
+  if (h && a && t && c) {
+    consoleEasterEgg2();
+  }
+
+});
+
+
 consoleEasterEgg();
+
+
+
+
+
+
+
+
+const consoleEasterEgg2 = () => {
+  console.log(`
+                )
+               (
+         /\  .-"""-.  /\
+        //\\/  ,,,  \//\\
+        |/\| ,;;;;;, |/\|
+        //\\\;-"""-;///\\
+       //  \/   .   \/  \\
+      (| ,-_| \ | / |_-, |)
+        //'__\.-.-./__'\\
+       // /.-(() ())-.\ \\
+      (\ |)   '---'   (| /)
+       ' (|           |) '
+ jgs     \)           (/)`);
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
